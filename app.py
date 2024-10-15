@@ -1,5 +1,4 @@
 import streamlit as st
-!pip install google.generativeai
 import google.generativeai as genai
 from api_key import api_key
 
