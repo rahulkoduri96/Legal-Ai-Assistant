@@ -5,6 +5,18 @@ from api_key import api_key
 # Configure the Gemini API with your API key
 genai.configure(api_key=api_key)
 
+st.markdown(
+    """
+    <style>
+    /* Hide the Streamlit edit and GitHub buttons */
+    .stActionButton {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Define the generation configuration for the model
 generation_config = {
     "temperature": 1,
