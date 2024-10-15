@@ -111,8 +111,6 @@ if submit_button:
         st.markdown("## Response")
         st.write(response.text)
         
-        # Add a disclaimer to the end of the output
-        st.markdown("**Note:** This is not an accurate legal judgment.")
 
 st.markdown("<hr style='margin-top: 200px;'>", unsafe_allow_html=True)  # Optional horizontal line for separation
 footer_text = "Created by Rahul & Rushikesh | All rights reserved"
