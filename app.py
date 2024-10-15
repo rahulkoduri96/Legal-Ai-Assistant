@@ -1,4 +1,5 @@
 import streamlit as st
+!pip install google.generativeai
 import google.generativeai as genai
 from api_key import api_key
 
@@ -101,3 +102,7 @@ if submit_button:
         
         # Add a disclaimer to the end of the output
         st.markdown("**Note:** This is not an accurate legal judgment.")
+
+st.markdown("<hr style='margin-top: 200px;'>", unsafe_allow_html=True)  # Optional horizontal line for separation
+footer_text = "Created by Rahul & Rushikesh | All rights reserved"
+st.markdown(f"<footer style='text-align: right;'>{footer_text}</footer>", unsafe_allow_html=True)
