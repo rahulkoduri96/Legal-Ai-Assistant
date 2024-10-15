@@ -90,7 +90,7 @@ st.markdown(
     """
     <style>
     /* Hide the Streamlit edit and GitHub buttons */
-    .stActionButton {
+    .stToolbarActions {
         display: none;
     }
     </style>
